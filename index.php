@@ -36,7 +36,7 @@ if($method == 'POST'){
 else
 {
 	$response->displayText = $speech;
-	echo "Method not allowed";
+	echo "Method is not allowed";
 }
 
 ?>
