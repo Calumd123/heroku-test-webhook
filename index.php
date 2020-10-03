@@ -13,6 +13,9 @@ if($method == 'POST'){
 		case 'hi':
 			$speech = "Hi, Nice to meet you";
 			break;
+		case 'dogs':
+			$speech = "dogs";
+			break;
 
 		case 'bye':
 			$speech = "Bye, good night";
@@ -23,7 +26,7 @@ if($method == 'POST'){
 			break;
 		
 		default:
-			$speech = "dogs";
+			$speech = "Sorry can you repeat that?";
 			break;
 	}
 
