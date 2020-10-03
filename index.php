@@ -35,7 +35,7 @@ if($method == 'POST'){
 }
 else
 {
-	$response->displayText = $speech;
+	$response->displayText = "dogs";
 	echo json_encode($response);
 	echo "Method is not allowed";
 }
