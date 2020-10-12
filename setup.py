@@ -1,1 +1,1 @@
-$ pip install -U flask
+pip install -U flask
